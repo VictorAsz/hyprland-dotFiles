@@ -4,21 +4,14 @@
     "telemetry.devDeviceId": "d23d8ddd-95bc-4f44-9cc3-213d7cc7389f",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [
-            {
-                "folderUri": "file:///home/drayuuta/.config/hypr"
-            },
-            {
-                "folderUri": "file:///home/drayuuta/.config/rofi"
-            }
-        ],
+        "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1749143393360"
+                "backupFolder": "1749148198039"
             }
         ]
     },
-    "windowControlHeight": 35,
+    "windowControlHeight": 42,
     "profileAssociations": {
         "workspaces": {
             "file:///home/drayuuta/code%20projects/encyclopedia-tormenta-20": "__default__profile__",
@@ -29,7 +22,7 @@
             "file:///home/drayuuta/.config/rofi": "__default__profile__"
         },
         "emptyWindows": {
-            "1749143393360": "__default__profile__"
+            "1749148198039": "__default__profile__"
         }
     },
     "theme": "vs-dark",
@@ -56,7 +49,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 170,
+            "sideBarWidth": 0,
             "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -64,14 +57,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/drayuuta/.config/hypr",
-            "backupPath": "/home/drayuuta/.config/Code - OSS/Backups/887978a91a4661384ff12b9e51de80ca",
+            "backupPath": "/home/drayuuta/.config/Code - OSS/Backups/1749148198039",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 1920,
-                "height": 1080,
+                "width": 1356,
+                "height": 697,
                 "zoomLevel": 1
             }
         },

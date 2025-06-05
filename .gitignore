@@ -47,3 +47,7 @@ thorium-flags.conf
 # Arquivos gerados ou sincronizados
 gemini_history.json
 go/
+
+# Ignorar todos os dados do Code - OSS
+Code - OSS/*
+OSS/**
