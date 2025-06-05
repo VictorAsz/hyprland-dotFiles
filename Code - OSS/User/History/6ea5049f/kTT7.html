@@ -1,0 +1,25 @@
+<h2>Classes</h2>
+<input type="text" id="filtro-classe" class="form-control mb-3" placeholder="Pesquisar classes...">
+<ul id="lista-classes" class="list-group"></ul>
+
+<script>
+  $(document).ready(function () {
+    
+    $.getJSON('dados/classes.json', function (dados) {
+
+      const $lista = $('#lista-classes');
+
+      dados.forEach(classe => {
+        $lista.append(`<li class="list-group-item">${classe.nome}</li>`);
+      });
+
+      $('#filtro-classe').on('input', function () {
+        const filtro = $(this).val().toLowerCase();
+        $lista.children().each(function () {
+          const texto = $(this).text().toLowerCase();
+          $(this).toggle(texto.includes(filtro));
+        });
+      });
+    });
+  });
+</script>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Enciclopédia de Tormenta</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <!-- Fonte estilo medieval -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/Logo-Tormenta.png" alt="Tormenta 20" height="40" />
+        </a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-page="magias">Magias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-page="about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <div id="content"></div>
+
+    <footer>
+      &copy; 2025 Meu Projeto — Desenvolvido com
+      <span style="color: #ff4d4d">&#10084;</span> por Você
+    </footer>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+
+     <script>
+    $(function() {
+      const footer = $('#page-footer');
+      let lastScrollTop = 0;
+
+      $(window).on('scroll', function() {
+        const scrollTop = $(this).scrollTop();
+
+        if (scrollTop > lastScrollTop && scrollTop > 100) {
+          // Rolou para baixo e passou de 100px: mostra footer
+          footer.addClass('show');
+        } else if (scrollTop <= 100) {
+          // Topo da página: esconde footer
+          footer.removeClass('show');
+        }
+        lastScrollTop = scrollTop;
+      });
+    });
+  </script>
+
+  
+  </body>
+</html>

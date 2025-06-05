@@ -1,0 +1,23 @@
+Convocação
+Arcana - 1º círculo
+Execução:
+padrão
+Alcance:
+pessoal
+Duração:
+sustentada
+Alvo/Área/Efeito:
+açoite de chamas criado em sua mão (veja texto)
+Resistência:
+Reflexos reduz parcial
+Publicação:
+Ameaças de Arton
+Açoite Flamejante
+Um açoite de fogo surge em uma de suas mãos com a qual possa empunhar uma arma (essa mão fica ocupada pela duração da magia). Você pode usar uma ação padrão para causar 2d6 pontos de dano de fogo com o açoite em uma criatura em alcance curto e deixá-la em chamas e enredada enquanto estiver em chamas dessa forma. Passar na resistência reduz o dano à metade e evita as chamas.
+
++2 PM: muda a execução para movimento.
+
++2 PM: muda o dano para 4d6. Requer 2° círculo.
+
++5 PM: muda o dano para 6d6. Requer 3° círculo.
+

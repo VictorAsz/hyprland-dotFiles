@@ -1,0 +1,112 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "5f210323d1ed16f63af3c83460875a094847fa084da88e956ffeff671a99c964",
+    "telemetry.devDeviceId": "d23d8ddd-95bc-4f44-9cc3-213d7cc7389f",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/drayuuta/.config/hypr"
+            },
+            {
+                "folderUri": "file:///home/drayuuta/.config/rofi"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1749143393360"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/drayuuta/code%20projects/encyclopedia-tormenta-20": "__default__profile__",
+            "file:///home/drayuuta/Documents/Conversor%20%20magia%20tormenta%20para%20json%20py": "__default__profile__",
+            "file:///home/drayuuta/Documents/conversor-magias-tormenta": "__default__profile__",
+            "file:///home/drayuuta/ags": "__default__profile__",
+            "file:///home/drayuuta/.config/hypr": "__default__profile__",
+            "file:///home/drayuuta/.config/rofi": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1749143393360": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/drayuuta/.config/hypr",
+            "backupPath": "/home/drayuuta/.config/Code - OSS/Backups/887978a91a4661384ff12b9e51de80ca",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1080,
+                "zoomLevel": 1
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "f38d9d71b3fec8c37ebc5901599db8af": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "ae63c553a47f432148d3d16e66b4024a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "dba3288ec6a4e259902d544e1a517259": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "02409dfd8f533910599e37b097dc80f4": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "52ca23f560e8031eb18ad325b0cd244a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "87ae03fca98cd7544b5735c37451cdd2": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

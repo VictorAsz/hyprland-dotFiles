@@ -1,0 +1,49 @@
+# Plugins externos (submódulos ou repositórios separados)
+zsh/plugins/zsh-autosuggestions/
+zsh/plugins/zsh-history-substring-search/
+zsh/plugins/pure/
+zsh/plugins/fast-syntax-highlighting/
+
+# Cache e sessões temporárias
+*/cache/
+*/Cache/
+*/session/
+*/Session/
+*/tmp/
+*/temp/
+
+# Arquivos e configs locais de uso individual
+*.lock
+*.bak
+*.swp
+*.tmp
+*.log
+
+# Configurações específicas que mudam com frequência ou são do sistema
+pulse/
+dconf/
+user-dirs.*
+mimeapps.list
+kiorc
+kde.org/
+kactivitymanagerdrc
+kconf_updaterc
+QtProject.conf
+
+# Aplicativos que não precisam ser versionados
+discord/
+YouTube Music/
+JetBrains/
+Kenku FM/
+librewolf/
+vlc/
+obsidian/
+viewnior/
+baloofileinformationrc
+chrome-flags.conf
+code-flags.conf
+thorium-flags.conf
+
+# Arquivos gerados ou sincronizados
+gemini_history.json
+go/
