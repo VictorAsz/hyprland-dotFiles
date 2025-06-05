@@ -1,9 +1,0 @@
-{
-    "explorer.confirmDelete": false,
-    "workbench.iconTheme": "file-icons",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "files.autoSave": "afterDelay",
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
-}
